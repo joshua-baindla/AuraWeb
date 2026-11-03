@@ -1,0 +1,8 @@
+{
+  "name": "DesktopMax Fullscreen Browser",
+  "description": "Full-screen desktop web browser for mobile with keyboard and mouse, notification bar hidden, cross-device sync, and visit cache.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

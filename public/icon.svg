@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+    <linearGradient id="screen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Rounded Container with Safe Zone padding for Maskable icons -->
+  <rect width="512" height="512" rx="110" fill="url(#bg)" />
+  
+  <!-- Outer Glow Ring -->
+  <rect x="36" y="36" width="440" height="440" rx="90" fill="none" stroke="url(#accent)" stroke-width="4" opacity="0.3" />
+
+  <!-- Desktop Monitor & Fullscreen Browser Mockup -->
+  <!-- Browser Window Frame -->
+  <rect x="76" y="86" width="360" height="260" rx="18" fill="url(#screen)" stroke="#334155" stroke-width="4" />
+  
+  <!-- Window Header / Tabs bar -->
+  <path d="M78 104 C78 94 86 88 96 88 L416 88 C426 88 434 94 434 104 L434 126 L78 126 Z" fill="#0f172a" />
+  
+  <!-- Window Dots -->
+  <circle cx="106" cy="107" r="6" fill="#ef4444" />
+  <circle cx="126" cy="107" r="6" fill="#f59e0b" />
+  <circle cx="146" cy="107" r="6" fill="#10b981" />
+  
+  <!-- Active Tab -->
+  <path d="M174 126 L182 98 C184 94 188 92 192 92 L290 92 C294 92 298 94 300 98 L308 126 Z" fill="url(#screen)" />
+  <circle cx="198" cy="110" r="4" fill="#38bdf8" />
+  <rect x="210" y="107" width="60" height="6" rx="3" fill="#94a3b8" />
+  
+  <!-- Omnibox Search bar -->
+  <rect x="96" y="136" width="320" height="24" rx="6" fill="#0f172a" stroke="#334155" stroke-width="2" />
+  <circle cx="112" cy="148" r="4" fill="#64748b" />
+  <rect x="126" y="145" width="140" height="6" rx="3" fill="#cbd5e1" />
+  <path d="M394 142 L402 142 M402 142 L402 150 M402 142 L394 150" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Web View Content: Fullscreen Expanding Arrows & Globe -->
+  <circle cx="256" cy="235" r="50" fill="none" stroke="url(#accent)" stroke-width="3" stroke-dasharray="4 3" opacity="0.6" />
+  <ellipse cx="256" cy="235" rx="24" ry="50" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.5" />
+  <line x1="206" y1="235" x2="306" y2="235" stroke="url(#accent)" stroke-width="2" opacity="0.5" />
+
+  <!-- Fullscreen expand corners -->
+  <path d="M106 186 L106 174 L118 174" stroke="#38bdf8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M406 186 L406 174 L394 174" stroke="#38bdf8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M106 316 L106 328 L118 328" stroke="#38bdf8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M406 316 L406 328 L394 328" stroke="#38bdf8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Keyboard & Mouse Base (highlighting the user's setup) -->
+  <!-- Monitor Stand -->
+  <path d="M236 348 L230 380 L282 380 L276 348 Z" fill="#334155" />
+  <rect x="196" y="380" width="120" height="8" rx="4" fill="#475569" />
+  
+  <!-- Mini Keyboard silhouette -->
+  <rect x="136" y="404" width="160" height="42" rx="8" fill="#1e293b" stroke="#475569" stroke-width="2" />
+  <rect x="146" y="412" width="140" height="6" rx="2" fill="#64748b" opacity="0.7" />
+  <rect x="146" y="422" width="140" height="6" rx="2" fill="#64748b" opacity="0.7" />
+  <rect x="176" y="432" width="80" height="6" rx="3" fill="#38bdf8" />
+
+  <!-- Mini Mouse silhouette -->
+  <rect x="320" y="404" width="34" height="48" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="2" />
+  <line x1="337" y1="406" x2="337" y2="422" stroke="#64748b" stroke-width="2" />
+  <circle cx="337" cy="418" r="2" fill="#38bdf8" />
+</svg>
